@@ -2,7 +2,7 @@
 <html>
     <head>
         <style>
-          input[type=text], select {
+          input[type=text], select, textarea{
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -45,24 +45,23 @@ div {
             <input type="text" id="lname" name="lname" placeholder="Enter last Name Here" required>
             <label for="num">Phone  number:</label><br>
             <input type="text" id="num" name="num" placeholder="Enter Phone  number Here" required>
-            <label for="email">Email:</label><br>
-            <input type="text" id="email" name="email" placeholder="Enter Email Here" required>
             <br>
-            <label>Choose Gender</label>
+            <label>Choose of Course </label>
             
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label>
-                <input type="radio" id="female" name="gender" value="female">
-                <label for="female">Female</label><br>
+            <input type="radio" id="Bachelors" name="course" value="Bachelors">
+            <label for="Bachelors">Bachelors</label>
+                <input type="radio" id="Masters" name="course" value="Masters">
+                <label for="Masters">Masters</label><br>
+                <label>Description:</label><br>
+                <textarea rows="10" cols="50"></textarea><br>
                 <label>Select Your Course </label><br>
-                <select>
-                    <option>Web Development</option>
-                    <option>Android</option>
-                    <option>Machine Learning</option>
-                    <option>Database</option>
-                    <option>Full Stack  Development</option>
-                     <option>Cloud Computing</option>
-                </select>
+                <input type="checkbox" id="Web Development" name="Web Development" value="Web Development">
+                <label for="Web Development"> Web Development</label><br>
+                <input type="checkbox" id="Android" name="Android" value="Android">
+                <label for="Android">Android</label><br>
+                <input type="checkbox" id="Cloud Computing" name="Cloud Computing" value="Cloud Computing">
+                <label for="Cloud Computing">Cloud Computing</label><br>
+               
                 <br>
                 <input type="submit">
           </form>
