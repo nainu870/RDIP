@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+          input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color:cadetblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:blueviolet;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+        </style>
+        <title>Course Page to Register</title>
+    </head>
+    <body>
+        <div>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Enter First Name Here" required><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Enter last Name Here" required>
+            <label for="num">Phone  number:</label><br>
+            <input type="text" id="num" name="num" placeholder="Enter Phone  number Here" required>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" placeholder="Enter Email Here" required>
+            <br>
+            <label>Choose Gender</label>
+            
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <label>Select Your Course </label><br>
+                <select>
+                    <option>Web Development</option>
+                    <option>Android</option>
+                    <option>Machine Learning</option>
+                    <option>Database</option>
+                    <option>Full Stack  Development</option>
+                     <option>Cloud Computing</option>
+                </select>
+                <br>
+                <input type="submit">
+          </form>
+    </div>
+        </body>
+</html>
