@@ -2,6 +2,12 @@
 <html>
     <head>
         <style>
+          #num,#nums{
+            color:blue;
+          }
+          .rows{
+            color:rgb(241, 13, 63);
+          }
             td, th {
   border: 1px solid #dddddd;
   text-align: left;
@@ -19,8 +25,8 @@
 <h2>Marks Table</h2>
 
 <table style="width:100%">
-  <tr>
-    <th>Sr.No</th>
+  <tr class="rows">
+    <th id="num">Sr.No</th>
     <th>Subject</th> 
     <th>Marks/Grades</th>
   </tr>
@@ -34,8 +40,8 @@
     <td>Neural Network</td>
     <td>90</td>
   </tr>
-  <tr>
-    <td>3</td>
+  <tr class="rows" >
+    <td id="nums">3</td>
     <td>Cryptography</td>
     <td>80</td>
   </tr>
@@ -44,7 +50,7 @@
     <td>Information Security</td>
     <td>88</td>
   </tr>
-  <tr>
+  <tr class="rows">
     <td>5</td>
     <td>Python</td>
     <td>95</td>
